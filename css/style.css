@@ -1,5 +1,5 @@
 /*Обнуление*/
-*{padding: 0;margin: 0;border: 0;}
+/* *{padding: 0;margin: 0;border: 0;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
@@ -13,7 +13,7 @@ a,a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;} */
 /*--------------------*/
 
 body {
@@ -28,7 +28,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	margin: 106px 108px 137px 142px;
-	background: url("/img/Ellipse_1_copy.png") no-repeat;
+	background: url("../img/Ellipse_1_copy.png") no-repeat;
 }
 .Container p {
 	font-family: Arial, Helvetica, sans-serif;
@@ -108,7 +108,7 @@ text-transform: none;
 	border-radius: 50px;
 	color: #ffffff;
 	text-transform: uppercase;
-	background: #80b7b3 url("/img/icons/Shape_2.png") 90% 50% no-repeat;
+	background: #80b7b3 url("../img/icons/Shape_2.png") 90% 50% no-repeat;
 	font-size: 14px;
 	font-weight: 400;
 	width: 199px;
@@ -120,6 +120,4 @@ text-transform: none;
 	font-family: "Arial MT";
 	text-align: center;
 	text-shadow: #273d46;
- /* margin: 3px 17px; */
- /* margin-top: 15px; */
 }
